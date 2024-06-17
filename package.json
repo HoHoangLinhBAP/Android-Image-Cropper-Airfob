@@ -1,0 +1,12 @@
+{
+  "name": "android-image-cropper-airfob",
+  "version": "0.0.1",
+  "description": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
