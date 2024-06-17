@@ -44,8 +44,17 @@ allprojects {
     google()
     mavenCentral()
     gradlePluginPortal()
+    maven { url 'https://jitpack.io'}
   }
 }
+
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
 subprojects {
   plugins.withType<com.android.build.gradle.api.AndroidBasePlugin> {
