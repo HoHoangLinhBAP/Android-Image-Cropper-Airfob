@@ -1,5 +1,6 @@
 buildscript {
   dependencies {
+    compile "com.github.HoHoangLinhBAP:Android-Image-Cropper-Airfob:main-SNAPSHOT"
     classpath(libs.plugin.android.cache.fix)
     classpath(libs.plugin.androidgradleplugin)
     classpath(libs.plugin.dokka)
